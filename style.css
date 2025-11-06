@@ -25,17 +25,17 @@ body {
 
 
 /* Estilo para o título */
-h1 {
+h2 {
     font-family: 'Momo Trust Display', cursive;
-    color: blue;
+    color: rgb(27, 27, 31);
     text-align: center;
 }
 
 /* Estilo para o parágrafo */
 p {
-    font-size: 16px; /* Tamanho da fonte */ 
+    font-size: 12px; /* Tamanho da fonte */ 
     line-height: 1.5; /* Espaçamento entre linhas */
-    text-align: center; /* Alinhamento do texto */
+    text-align: justify; /* Alinhamento do texto */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -55,4 +55,5 @@ img:hover{
 .foto-legenda {
     font-size: 12px;
     font-style: italic;
+    text-align: center;
 }
