@@ -16,7 +16,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%); /* Gradiente de fundo */
+    background: linear-gradient(135deg, #5179e7 0%, #e6ecff 100%); /* Gradiente de fundo */
     display: flex; /* Define um contêiner flexível */
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Centraliza o conteúdo verticalmente */
@@ -48,6 +48,10 @@ img {
     height: 150px; /* Altura da imagem */
 }
 
+img:hover{
+    transform: scale(1.05);  /*Aumentar levemente a imagem ao passar o mouse*/
+    transition: transform 0.3s ease; /*Animmação suave*/
+}
 .foto-legenda {
     font-size: 12px;
     font-style: italic;
